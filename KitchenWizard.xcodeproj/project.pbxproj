@@ -19,6 +19,7 @@
 		62914D1428AC588C00932B85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62914D1628AC588E00932B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62914D1928AC588E00932B85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62914D2028AC596400932B85 /* KitchenWizardPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = KitchenWizardPlayground.playground; path = /Users/ColeThorpen/Desktop/CODE/KitchenWizard/KitchenWizard/../../KitchenWizardPlayground.playground; sourceTree = "<absolute>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		62914D1128AC588C00932B85 /* KitchenWizard */ = {
 			isa = PBXGroup;
 			children = (
+				62914D2028AC596400932B85 /* KitchenWizardPlayground.playground */,
 				62914D1228AC588C00932B85 /* KitchenWizardApp.swift */,
 				62914D1428AC588C00932B85 /* ContentView.swift */,
 				62914D1628AC588E00932B85 /* Assets.xcassets */,
