@@ -8,34 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var selection = "What's in the Fridge?"
+    
     var body: some View {
-        TabView {
+        NavigationView{
+            TabView(selection: $selection) {
                 Text("\"What's in the Fridge?\" View")
                     .tabItem {
-                        Label("My Fridge", systemImage: "house")
-                }
+                        Label("My Fridge", systemImage: "house.fill")
+                    }.tag("What's in the Fridge?")
                 Text("\"Random Recipe\" Screen")
                     .tabItem {
                         Image(systemName: "questionmark")
                         Text("Random")
-                }
+                    }.tag("Random Recipe")
                 Text("Search Screen")
                     .tabItem {
                         Image(systemName: "magnifyingglass")
                         Text("Search")
-                }
-            Text("Meal Prep Screen")
-                .tabItem {
-                    Image(systemName: "list.bullet.rectangle")
-                    Text("Meal Prep")
+                    }.tag("Search Recipes")
+                Text("Meal Prep Screen")
+                    .tabItem {
+                        Image(systemName: "list.bullet.rectangle")
+                        Text("Meal Prep")
+                    }.tag("Meal Prep")
+                Text("\"My Recipes\" View")
+                    .tabItem {
+                        Image(systemName: "books.vertical.fill")
+                        Text("My Recipes")
+                    }.tag("My Recipes")
             }
-            Text("\"My Recipes\" View")
-                .tabItem {
-                    Image(systemName: "books.vertical.fill")
-                    Text("My Recipes")
-            }
-            }
-        .padding()
+            .navigationTitle(selection)
+        }
     }
 }
 
