@@ -21,7 +21,7 @@ struct SearchView: View {
             
                 .navigationTitle("Discover Recipes")
         }
-        .padding()
+//        .padding()
     }
 }
 
