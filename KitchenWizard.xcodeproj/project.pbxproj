@@ -13,6 +13,7 @@
 		62914D1A28AC588E00932B85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62914D1928AC588E00932B85 /* Preview Assets.xcassets */; };
 		62914D2228AEE66800932B85 /* MyFridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62914D2128AEE66800932B85 /* MyFridgeView.swift */; };
 		62914D2628AEF0AC00932B85 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62914D2528AEF0AC00932B85 /* SearchView.swift */; };
+		62B90F8528B039CD003FA8DB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B90F8428B039CD003FA8DB /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		62914D2028AC596400932B85 /* KitchenWizardPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = KitchenWizardPlayground.playground; path = /Users/ColeThorpen/Desktop/CODE/KitchenWizard/KitchenWizard/../../KitchenWizardPlayground.playground; sourceTree = "<absolute>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		62914D2128AEE66800932B85 /* MyFridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFridgeView.swift; sourceTree = "<group>"; };
 		62914D2528AEF0AC00932B85 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchView.swift; path = ../SearchView.swift; sourceTree = "<group>"; };
+		62B90F8428B039CD003FA8DB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				62914D1428AC588C00932B85 /* ContentView.swift */,
 				62914D2128AEE66800932B85 /* MyFridgeView.swift */,
 				62914D2528AEF0AC00932B85 /* SearchView.swift */,
+				62B90F8428B039CD003FA8DB /* CardView.swift */,
 				62914D1628AC588E00932B85 /* Assets.xcassets */,
 				62914D1828AC588E00932B85 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				62914D2228AEE66800932B85 /* MyFridgeView.swift in Sources */,
 				62914D1528AC588C00932B85 /* ContentView.swift in Sources */,
 				62914D1328AC588C00932B85 /* KitchenWizardApp.swift in Sources */,
+				62B90F8528B039CD003FA8DB /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
