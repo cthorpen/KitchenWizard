@@ -8,31 +8,31 @@
 import SwiftUI
 
 struct CardView: View {
-    // constant to represent current scrum meeting on this view
+    
     var body: some View {
-        VStack(alignment: .center) {
-            Text("Recipe Name")
-                .font(.title)
-            HStack {
-                VStack(alignment: .center) {
-                    Image(systemName: "globe")
-                    Text("Type of Cuisine")
-                        .bold()
-                }
-                VStack(alignment: .center) {
-                    Image(systemName: "timer")
-                    Text("Cook Time")
-                }
-                VStack(alignment: .center) {
-                    Image(systemName: "list.star")
-                    Text("Calorie Count")
-                        .bold()
-                }
-            }
-            .padding(.horizontal)
-        }
-        .padding()
-        .foregroundColor(.indigo)
+        Text("this is a test")
+//        VStack(alignment: .center) {
+//            Text("Recipe Name")
+//                .font(.title)
+//            HStack {
+//                VStack(alignment: .center) {
+//                    Image(systemName: "globe")
+//                    Text("Cuisine")
+//                        .bold()
+//                }
+//                VStack(alignment: .center) {
+//                    Image(systemName: "timer")
+//                    Text("Time")
+//                }
+//                VStack(alignment: .center) {
+//                    Image(systemName: "list.star")
+//                    Text("Calories")
+//                        .bold()
+//                }
+//            }
+//            .padding()
+//        }
+//        .padding()
     }
     
 }

@@ -14,16 +14,13 @@ struct SearchView: View {
     var body: some View {
         NavigationView {
             
-            VStack {
-                List {
-                    ForEach((0...10), id: \.self) {_ in
-                        CardView()
-                    }
-                }
+            ForEach((0...10), id: \.self) {_ in
+                CardView()
             }
+            
             .navigationTitle("Discover Recipes")
-           
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
