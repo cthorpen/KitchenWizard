@@ -10,15 +10,26 @@ import SwiftUI
 struct CardView: View {
     // constant to represent current scrum meeting on this view
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .center) {
+            Text("Recipe Name")
+                .font(.title)
             HStack {
-                Text("Recipe Name")
-                    .font(.headline)
-                Spacer()
-                Text("__ calories")
+                VStack(alignment: .center) {
+                    Image(systemName: "globe")
+                    Text("Type of Cuisine")
+                        .bold()
+                }
+                VStack(alignment: .center) {
+                    Image(systemName: "timer")
+                    Text("Cook Time")
+                }
+                VStack(alignment: .center) {
+                    Image(systemName: "list.star")
+                    Text("Calorie Count")
+                        .bold()
+                }
             }
-            .font(.subheadline)
-            Label("Ingredients/Description goes here...", systemImage: "book")
+            .padding(.horizontal)
         }
         .padding()
         .foregroundColor(.indigo)
