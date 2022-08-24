@@ -15,8 +15,8 @@ struct SearchView: View {
         
         VStack {
             VStack {
-                Text("Discover Recipes")
-                    .font(.system(size: 40, weight: .black, design: .default))
+                Text("Discover New Recipes")
+                    .font(.system(size: 34, weight: .black, design: .default))
                     .padding()
                 Spacer()
                 // search bar
