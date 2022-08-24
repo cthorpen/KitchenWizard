@@ -9,16 +9,13 @@ import SwiftUI
 
 struct SearchView: View {
     @State private var searchText = ""
-    @State private var numResults = -1
+    @State private var numResults = 0
     
     var body: some View {
         NavigationView {
-            
-            ForEach((0...10), id: \.self) {_ in
-                CardView()
-            }
-            
-            .navigationTitle("Discover Recipes")
+            Text ("Search for something delicious")
+                .searchable(text: $searchText, prompt: "Search Recipes...")
+                .navigationTitle("Discover Recipes")
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }
