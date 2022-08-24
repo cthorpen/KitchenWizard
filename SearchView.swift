@@ -12,12 +12,24 @@ struct SearchView: View {
     @State private var numResults = 0
     
     var body: some View {
-        NavigationView {
-            Text ("Search for something delicious")
-                .searchable(text: $searchText, prompt: "Search Recipes...")
-                .navigationTitle("Discover Recipes")
+        
+        VStack {
+            VStack {
+                Text("Discover Recipes")
+                    .font(.system(size: 40, weight: .black, design: .default))
+                    .padding()
+                Spacer()
+                // search bar
+                SearchBarView(searchText: $searchText)
+                    .padding(.top, -10)
+                ScrollView {
+                    ForEach(0..<5) { _ in
+                        CardView()
+                    }
+                }
+            }
         }
-        .navigationViewStyle(StackNavigationViewStyle())
+        
     }
 }
 

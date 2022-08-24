@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		624D735E28B6A89B00C5569E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624D735D28B6A89B00C5569E /* SearchBarView.swift */; };
 		62914D1328AC588C00932B85 /* KitchenWizardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62914D1228AC588C00932B85 /* KitchenWizardApp.swift */; };
 		62914D1528AC588C00932B85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62914D1428AC588C00932B85 /* ContentView.swift */; };
 		62914D1728AC588E00932B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62914D1628AC588E00932B85 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		624D735D28B6A89B00C5569E /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		62914D0F28AC588C00932B85 /* KitchenWizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenWizard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62914D1228AC588C00932B85 /* KitchenWizardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenWizardApp.swift; sourceTree = "<group>"; };
 		62914D1428AC588C00932B85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				62914D1428AC588C00932B85 /* ContentView.swift */,
 				62914D2128AEE66800932B85 /* MyFridgeView.swift */,
 				62914D2528AEF0AC00932B85 /* SearchView.swift */,
+				624D735D28B6A89B00C5569E /* SearchBarView.swift */,
 				62B90F8428B039CD003FA8DB /* CardView.swift */,
 				62914D1628AC588E00932B85 /* Assets.xcassets */,
 				62914D1828AC588E00932B85 /* Preview Content */,
@@ -152,6 +155,7 @@
 				62914D2228AEE66800932B85 /* MyFridgeView.swift in Sources */,
 				62914D1528AC588C00932B85 /* ContentView.swift in Sources */,
 				62914D1328AC588C00932B85 /* KitchenWizardApp.swift in Sources */,
+				624D735E28B6A89B00C5569E /* SearchBarView.swift in Sources */,
 				62B90F8528B039CD003FA8DB /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
